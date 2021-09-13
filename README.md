@@ -3,13 +3,10 @@
 #### Goal: To develop a POC using Flask, HTML and CSS for predicting whether a person is suffering from Diabetes or not, implementing Machine Learning algorithm.
 
 ### About the Data set:
-This is a machine learning project where we will predict whether a person is suffering Diabetes or not. The dataset was downloaded from [Kaggle](https://www.kaggle.com/uciml/pima-indians-diabetes-database). The datasets consists of eight medical predictor variables and one target variable, Outcome. Predictor variables includes the number of pregnancies the patient has had, their BMI, insulin level, age, and so on.
-The target column says whether the person is having the disease or not based on the predictor variables. The target has two values 1(having the diease) and 0(not having the disease). A binary classification problem statement.
+This is a machine learning project where we will predict whether a person is suffering from Diabetes or not. The dataset was downloaded from [Kaggle](https://www.kaggle.com/uciml/pima-indians-diabetes-database). The datasets consists of eight medical predictor variables and one target variable, Outcome. Predictor variables includes the number of pregnancies the patient has had, their BMI, insulin level, age, and so on. The target column says whether the person is having the disease or not based on the predictor variables. The target has two values 1(having the diease) and 0(not having the disease). A binary classification problem statement.
 
 ### Project Description:
-After loading the dataset("diabetes.csv") the first step was to perform an extensive Exploratory Data Analysis(EDA). The EDA part comprises of creating countplots for the target feature to check whether the dataset is balanced or not. It was a balanced dataset. Density plots were made to check the distribution of each features.
-Similarly, histograms were made for the same purpose. Boxplots were created for outliers detection. Some amount of outliers present in few features. Then, the dataset was divided into independent(x) features and Dependent(Y) features for the purpose of Data Analysis. A correlation heatmap was made to check the correlation between all the independent features. Again, a correlation heatmap was plotted, but this time the target feature was also taken into consideration.
-Scatter plots were made to visualize the direction of correlations.
+After loading the dataset("diabetes.csv") the first step was to perform an extensive Exploratory Data Analysis(EDA). The EDA part comprises of creating countplots for the target feature to check whether the dataset is balanced or not. It was a balanced dataset. Density plots were made to check the distribution of each features. Similarly, histograms were made for the same purpose. Boxplots were created for outliers detection. Some amount of outliers present in few features. Then, the dataset was divided into independent(x) features and Dependent(Y) features for the purpose of Data Analysis. A correlation heatmap was made to check the correlation between all the independent features(x). Again, a correlation heatmap was plotted, but this time the target feature was also taken into consideration. Scatter plots were made to visualize the distribution of the data points and decide the type of correlation.
 
 The second step was to perform Feature Engneering. The initial step was to check for null values. Then the zero values of every feature was calculated. The zero values of every feature was replaced by mean using Sklearn's SimpleImputer.
 
@@ -22,10 +19,10 @@ The fifth step was to perform Hyperparameter Optimization on our model. A range 
 
 The final step was to save the model as a pickle file to reuse it again for the Deployment purpose. Joblib was used to dump the model at the desired location.
 
-### Deployment Architecture: 
-The model was deployed locally (port 5000). The backend part of the application was made using Flask and for the frotend part HTML and CSS was used. I have not focussed much on the frontend as I am not that good at it. The file "app.py" contains the entire flask code and inside the templates folder, "diabetes.html" contains the homepage and "result.html" contains the result page. 
-
 The "Diabetes Prediction.ipynb" file contains all these informations.
+
+### Deployment Architecture: 
+The model was deployed locally (port: 5000). The backend part of the application was made using Flask and for the frotend part HTML and CSS was used. I have not focussed much on the frontend as I am not that good at it. The file "app.py" contains the entire flask code and inside the templates folder, "diabetes.html" contains the homepage and "result.html" contains the result page. 
 
 ### Installation:
 The Code is written in Python 3.7.3 If you don't have Python installed you can find it [here](https://www.python.org/downloads/). If you are using a lower version of Python you can upgrade using the pip package, ensuring you have the latest version of pip. To install the required packages and libraries, run this command in the project directory after [cloning](https://www.howtogeek.com/451360/how-to-clone-a-github-repository/) the repository:
@@ -56,7 +53,7 @@ python app.py
 
 
 ### Further Changes to be Done
-- [ ] Including the remaining two features.
+- [ ] Including the remaining two features, that might increase model accuracy.
 - [ ] Deploying the Web Application on Cloud.
      - [ ] Google Cloud 
      - [ ] Azure
