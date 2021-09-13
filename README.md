@@ -49,6 +49,11 @@ python app.py
 ##### Make sure to change the directory to the root folder.  
 
 ### A Glimpse of the application
+![Screenshot (153)](https://user-images.githubusercontent.com/75041273/133078617-311d8e64-7a47-4fec-be2a-71458b55e2fc.png)
+![Screenshot (154)](https://user-images.githubusercontent.com/75041273/133078572-e4047598-dd10-4f63-a179-23fdbd98ff00.png)
+![Screenshot (152)](https://user-images.githubusercontent.com/75041273/133078717-499126ef-88c1-40b6-9f40-5011831e74ff.png)
+
+
 
 ### Further Changes to be Done
 - [ ] Including the remaining two features.
