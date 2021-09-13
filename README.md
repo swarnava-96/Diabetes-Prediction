@@ -3,7 +3,7 @@
 #### Goal: To develop a POC using Flask, HTML and CSS for predicting whether a person is suffering from Diabetes or not, implementing Machine Learning algorithm.
 
 ### About the Data set:
-This is a machine learning project where we will predict whether a person is suffering Diabetes or not. The dataset was downloaded from Kaggle. The datasets consists of eight medical predictor variables and one target variable, Outcome. Predictor variables includes the number of pregnancies the patient has had, their BMI, insulin level, age, and so on.
+This is a machine learning project where we will predict whether a person is suffering Diabetes or not. The dataset was downloaded from [Kaggle](https://www.kaggle.com/uciml/pima-indians-diabetes-database). The datasets consists of eight medical predictor variables and one target variable, Outcome. Predictor variables includes the number of pregnancies the patient has had, their BMI, insulin level, age, and so on.
 The target column says whether the person is having the disease or not based on the predictor variables. The target has two values 1(having the diease) and 0(not having the disease). A binary classification problem statement.
 
 ### Project Description:
