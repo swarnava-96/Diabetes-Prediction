@@ -45,14 +45,14 @@ python app.py
 ```
 ##### Make sure to change the directory to the root folder.  
 
-### A Glimpse of the application
+### A Glimpse of the application:
 ![Screenshot (153)](https://user-images.githubusercontent.com/75041273/133078617-311d8e64-7a47-4fec-be2a-71458b55e2fc.png)
 ![Screenshot (154)](https://user-images.githubusercontent.com/75041273/133078572-e4047598-dd10-4f63-a179-23fdbd98ff00.png)
 ![Screenshot (152)](https://user-images.githubusercontent.com/75041273/133078717-499126ef-88c1-40b6-9f40-5011831e74ff.png)
 
 
 
-### Further Changes to be Done
+### Further Changes to be Done:
 - [ ] Including the remaining two features, that might increase model accuracy.
 - [ ] Deploying the Web Application on Cloud.
      - [ ] Google Cloud 
@@ -60,6 +60,6 @@ python app.py
      - [ ] Heroku
      - [ ] AWS
 
-### Technology Stack
+### Technology Stack:
 
 <img src="https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=darkgreen" /> <img src="https://img.shields.io/badge/Numpy-777BB4?style=for-the-badge&logo=numpy&logoColor=white" /> <img src="https://img.shields.io/badge/Pandas-2C2D72?style=for-the-badge&logo=pandas&logoColor=white" /> ![Seaborn](https://img.shields.io/badge/Seaborn-%230C55A5.svg?style=for-the-badge&logo=seaborn&logoColor=%white)  <img src="https://img.shields.io/badge/scikit_learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white" /> <img src="https://img.shields.io/badge/Jupyter-F37626.svg?&style=for-the-badge&logo=Jupyter&logoColor=white" /> <img src="https://img.shields.io/badge/conda-342B029.svg?&style=for-the-badge&logo=anaconda&logoColor=white"/> <img src="https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=Kaggle&logoColor=white" />  <img src="https://img.shields.io/badge/matplotlib-342B029.svg?&style=for-the-badge&logo=matplotlib&logoColor=white"/> <img src="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white" /> <img src="https://img.shields.io/badge/Spyder-838485?style=for-the-badge&logo=spyder%20ide&logoColor=maroon" />
